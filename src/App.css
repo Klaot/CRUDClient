@@ -1,0 +1,128 @@
+.App {
+  margin: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.form {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.form input {
+  padding-block: 15px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.form input:focus {
+  box-shadow: 0px 0px 10px #fff;
+}
+
+.form label {
+  margin-bottom: 10px;
+}
+
+.form button {
+  padding: 5px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px #fff;
+  border: 2px solid #ffffff;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  box-shadow: 0px 0px 15px #fff;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.container {
+  max-width: 1920px;
+  margin: auto;
+  
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  padding-inline: 20px;
+  color: #fff;
+}
+
+.all-movie {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+.responce {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  width: 300px;
+  border: 2px solid #282c34;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px;
+  word-wrap: break-word;
+  color: #fff;
+}
+
+.responce input {
+  margin-bottom: 10px;
+  padding-block: 10px;
+}
+
+.delete-btn {
+  padding-block: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  border: none;
+  word-wrap: normal;
+  width: 70px;
+}
+
+.delete-btn:hover {
+  box-shadow: 0px 0px 10px #fff;
+}
+
+.update-btn {
+  padding-block: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.update-btn:hover {
+  box-shadow: 0px 0px 10px #fff;
+}
+
+.update-block {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
