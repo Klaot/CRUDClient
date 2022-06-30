@@ -1,8 +1,13 @@
 .App {
   margin: 0;
   text-align: center;
-  display: flex;
-  flex-direction: row;
+}
+
+.App h1 {
+  margin-top: 0;
+  padding-block: 10px;
+  background-color: #7831bb;
+  color: #fff;
 }
 
 .form {
@@ -58,21 +63,24 @@
 .container {
   max-width: 1920px;
   margin: auto;
-  
+  display: flex;
 }
 
 .content {
   display: flex;
   flex-direction: row;
   padding-inline: 20px;
+  padding-block: 20px 10px;
+  box-shadow: 0 0 8px #0c0c0c;
+  margin-inline: 10px;
   color: #fff;
 }
 
 .all-movie {
+  max-width: 1420px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding-top: 10px;
 }
 
 .responce {

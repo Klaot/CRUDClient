@@ -37,10 +37,11 @@ const updateReview = (movie) => {
 };
 
   return (
-    <div className="App container">
+    <div className="App">
+      <h1>CRUD TODO</h1>
+      <div className="container">
       <div className='content'>
           <div className='form'>
-            <h1>CRUD TODO</h1>
             <label>Подзаголовок:</label>
             <input type='text' name='movieName' value={movieName || ''} onChange={(e) => setMovieName(e.target.value)}></input>
             <label>Запись:</label>
@@ -70,7 +71,8 @@ const updateReview = (movie) => {
             </div> 
           )
         })}
-      </div>  
+      </div> 
+      </div>
     </div>
   );
 }
